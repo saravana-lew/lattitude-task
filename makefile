@@ -1,6 +1,16 @@
 SHELL:=/bin/bash
 
 #----------------------
+# Development
+#----------------------
+
+install:
+	pip install -r ./src/requirements.txt
+
+install-dev:
+	pip install awscli boto3 pytest
+
+#----------------------
 # Test
 #----------------------
 test:
