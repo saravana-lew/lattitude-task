@@ -24,11 +24,20 @@ main.vars => for deploying on main/prod environment
 | LOGLEVEL             | Level at which log statements are written. Possible values - DEBUG, INFO,WARNING,ERROR,CRITICAL |
 
 
-## Functions
+## Function
 | Function Name                   | Description                                                                                                                       |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | get_stock_price            | Find maximum profit from the stock price list                                                                                          |
 
+
+## Configure virtual environment
+Configure local python virtual environment and install development dependencies
+
+```bash
+python3 -m venv venv
+. venv/bin/activate
+make install-dev
+```
 
 ## Test Cases
 Execute test case using below commands
