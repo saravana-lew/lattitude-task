@@ -1,0 +1,7 @@
+pytest
+botocore
+aws_lambda_context
+requests
+requests_aws_sign
+boto3
+wheel
